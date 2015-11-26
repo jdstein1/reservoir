@@ -1,28 +1,34 @@
 {
-	"cast":{[
-		"brown": {[
+	"cast":{
+    "all":[
+      {"id":1,"name":"Luke","team":"pink","role":"lead"},
+      {"id":2,"name":"Jose","team":"blue","role":"lead"},
+      {"id":3,"name":"Tim","team":"brown","role":"lead"},
+      {"id":4,"name":"Matt","team":"blonde","role":"lead"},
+      {"id":5,"name":"Jeff","team":"pink","role":"dev"},
+      {"id":6,"name":"Jen","team":"pink","role":"dev"},
+      {"id":7,"name":"Jen","team":"pink","role":"dev"},
+      {"id":8,"name":"Roneesh","team":"pink","role":"dev"}
+    ],
+		"brown": {
 			"actor":"Quentin Tarantino",
-			"members":{[
-				]}
-			]},
-		"blue": {[
+			"members":[1,2,3,4]
+			},
+		"blue": {
 			"actor":"Michael Madsen",
-			"members":{[
-				]}
-			]},
-		"pink": {[
+			"members":[1,2,3,4]
+			},
+		"pink": {
 			"actor":"Steve Buscemi",
-			"members":{[
-				]}
-			]},
-		"blonde": {[
+			"members":[1,2,3,4]
+			},
+		"blonde": {
 			"actor":"Eddie Bunker",
-			"members":{[
-				]}
-			]}
-	]},
-	"schedule":{[
-		"days":{[
+			"members":[1,2,3,4]
+			}
+	},
+	"schedule":{
+		"days":[
 			{"label":"Day 1","date":"2015-11-21"},
 			{"label":"Day 2","date":"2015-11-22"},
 			{"label":"Day 3","date":"2015-11-23"},
@@ -33,19 +39,19 @@
 			{"label":"Day 7","date":"2015-11-28"},
 			{"label":"Day 7","date":"2015-11-29"},
 			{"label":"Day 7","date":"2015-11-30"}
-		]},
+		],
 		"shifts":{
-			"oncall":{[
+			"oncall":[
 				{"start":"07:00","end":"14:30"},
 				{"start":"14:30","end":"22:00"}
-			]},
-			"onduty":{[
+			],
+			"onduty":[
 				{"start":"22:00","end":"03:00"},
 				{"start":"03:00","end":"07:00"}
-			]},
-			"regular":{[
+			],
+			"regular":[
 				{"start":"09:30","end":"17:30"}
-			]}
+			]
 		}
-	]}
+	}
 }
