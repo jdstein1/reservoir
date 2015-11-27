@@ -8,19 +8,24 @@ A visual representation of the support calendar schedule with theme-appropriate 
 
 ## Cast
 
-### Mr. Brown
+* Mr. Brown
+  * played by Quentin Tarantino
+  * Team Lead - 
 
-played by Quentin Tarantino
+* Mr. Blonde
+  * played by Michael Madsen
+  * Team Lead - 
 
-### Mr. Blonde
+* Mr. Pink
+  * played by Steve Buscemi
+  * Team Lead - 
 
-played by Michael Madsen
+* Mr. Blue
+  * played by Eddie Bunker
+  * Team Lead - 
 
-### Mr. Pink
+## Teams
 
-played by Steve Buscemi
+In order to keep team names away from the public repo, I put it in a Gist inside the enterprise GitHub instance.
 
-### Mr. Blue
-
-played by Eddie Bunker
-
+* [FEDs Gist](https://github.searshc.com/gist/e7ba4cfc17169e9071c7.git)
