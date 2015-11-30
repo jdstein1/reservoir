@@ -5,3 +5,14 @@
 .status-notstart {}
 .status-inprog {}
 .status-done {}
+
+table {width: 100%;}
+tr {}
+th, td {text-align: center;}
+th {background: #eee;}
+td {}
+
+.team.pink {background: #f9c;}
+.team.blue {background: #9cf;}
+.team.blonde {background: #fc9;}
+.team.brown {background: #c96;}
