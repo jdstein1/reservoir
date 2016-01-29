@@ -18,7 +18,14 @@ td {}
 .team.brown {background: #c96;}
 
 .shift {}
-.shift.shift-1 {border:1px solid cyan;}
-.shift.shift-2 {border:1px solid magenta;}
-.shift.shift-3 {border:1px solid yellow;}
-.shift.shift-4 {border:1px solid black;}
+
+.shift-1 {border:1px solid cyan; background:#fed;}
+.shift-2 {border:1px solid magenta; background:#def;}
+.shift-3 {border:1px solid yellow; background:#fde;}
+.shift-4 {border:1px solid black; background:#edc;}
+
+
+.shift-1,
+.shift-2,
+.shift-3,
+.shift-4 {padding:2px; margin:2px;}
