@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservoir - a schedule visualization</title>
+  <!-- <link rel="stylesheet" href="styles/reset.css"> -->
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>Header</header>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>To do</li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Reservoir</h1>
+    <article>
+      <section>
+        <h2>Schedule</h2>
+        <p>Basic table.</p>
+        <table>
+          <tbody>
+            <tr>
+              <th>&nbsp;</th>
+              <th colspan="100">Days</th>
+            </tr>
+            <tr>
+              <th>&nbsp;</th>
+              <th>&nbsp;</th>
+              <th>Day 1</th>
+              <th>Day 2</th>
+              <th>Day 3</th>
+              <th>Day 4</th>
+              <th>Day 5</th>
+              <th>Day 6</th>
+              <th>Day 7</th>
+            </tr>
+            <tr>
+              <th rowspan="100">Shifts</th>
+              <th>Shift 1</th>
+              <td class="team pink">Mr. Pink</td>
+              <td class="team blue">Mr. Blue</td>
+              <td class="team blonde">Mr. Blonde</td>
+              <td class="team brown">Mr. Brown</td>
+              <td class="team pink">Mr. Pink</td>
+              <td class="team blue">Mr. Blue</td>
+              <td class="team blonde">Mr. Blonde</td>
+            </tr>
+            <tr>
+              <th>Shift 2</th>
+              <td class="team blue">Mr. Blue</td>
+              <td class="team blonde">Mr. Blonde</td>
+              <td class="team brown">Mr. Brown</td>
+              <td class="team pink">Mr. Pink</td>
+              <td class="team blue">Mr. Blue</td>
+              <td class="team blonde">Mr. Blonde</td>
+              <td class="team brown">Mr. Brown</td>
+            </tr>
+            <tr>
+              <th>Shift 3</th>
+              <td class="team blonde">Mr. Blonde</td>
+              <td class="team brown">Mr. Brown</td>
+              <td class="team pink">Mr. Pink</td>
+              <td class="team blue">Mr. Blue</td>
+              <td class="team blonde">Mr. Blonde</td>
+              <td class="team brown">Mr. Brown</td>
+              <td class="team pink">Mr. Pink</td>
+            </tr>
+            <tr>
+              <th>Shift 4</th>
+              <td class="team brown">Mr. Brown</td>
+              <td class="team pink">Mr. Pink</td>
+              <td class="team blue">Mr. Blue</td>
+              <td class="team blonde">Mr. Blonde</td>
+              <td class="team brown">Mr. Brown</td>
+              <td class="team pink">Mr. Pink</td>
+              <td class="team blue">Mr. Blue</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Schedule</h2>
+        <p>Smooth table.</p>
+        <table>
+          <tbody>
+            <tr>
+              <th>&nbsp;</th>
+              <th colspan="100">Days</th>
+            </tr>
+            <tr>
+              <th>&nbsp;</th>
+              <th>&nbsp;</th>
+              <th>Day 1</th>
+              <th>Day 2</th>
+              <th>Day 3</th>
+              <th>Day 4</th>
+              <th>Day 5</th>
+              <th>Day 6</th>
+              <th>Day 7</th>
+            </tr>
+            <tr>
+              <th rowspan="100">Shifts</th>
+              <th>Shift 1</th>
+              <td rowspan="100">
+              <table>
+              <tbody>
+              <tr>
+                <td class="shift shift-1 team pink">Mr. Pink</td>
+              </tr>
+              <tr>
+                <td class="shift shift-2 team blue">Mr. Blue</td>
+              </tr>
+              <tr>
+                <td class="shift shift-3 team blonde">Mr. Blonde</td>
+              </tr>
+              <tr>
+                <td class="shift shift-4 team brown">Mr. Brown</td>
+              </tr>
+              </tbody>
+              </table>
+              </td>
+              <td rowspan="100">
+              <table>
+              <tbody>
+              <tr>
+                <td class="shift shift-1 team blue">Mr. Blue</td>
+              </tr>
+              <tr>
+                <td class="shift shift-2 team blonde">Mr. Blonde</td>
+              </tr>
+              <tr>
+                <td class="shift shift-3 team brown">Mr. Brown</td>
+              </tr>
+              <tr>
+                <td class="shift shift-4 team pink">Mr. Pink</td>
+              </tr>
+              </tbody>
+              </table>
+              </td>
+              <td rowspan="100">
+              <table>
+              <tbody>
+              <tr>
+                <td class="shift shift-1 team blonde">Mr. Blonde</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team brown">Mr. Brown</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team pink">Mr. Pink</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team blue">Mr. Blue</td>
+              </tr>
+              </tbody>
+              </table>
+              </td>
+              <td rowspan="100">
+              <table>
+              <tbody>
+              <tr>
+                <td class="shift shift-1 team brown">Mr. Brown</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team pink">Mr. Pink</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team blue">Mr. Blue</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team blonde">Mr. Blonde</td>
+              </tr>
+              </tbody>
+              </table>
+              </td>
+              <td rowspan="100">
+              <table>
+              <tbody>
+              <tr>
+                <td class="shift shift-1 team pink">Mr. Pink</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team blue">Mr. Blue</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team blonde">Mr. Blonde</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team brown">Mr. Brown</td>
+              </tr>
+              </tbody>
+              </table>
+              </td>
+              <td rowspan="100">
+              <table>
+              <tbody>
+              <tr>
+                <td class="shift shift-1 team blue">Mr. Blue</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team blonde">Mr. Blonde</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team brown">Mr. Brown</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team pink">Mr. Pink</td>
+              </tr>
+              </tbody>
+              </table>
+              </td>
+              <td rowspan="100">
+              <table>
+              <tbody>
+              <tr>
+                <td class="shift shift-1 team blonde">Mr. Blonde</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team brown">Mr. Brown</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team pink">Mr. Pink</td>
+              </tr>
+              <tr>
+                <td class="shift shift-1 team blue">Mr. Blue</td>
+              </tr>
+              </tbody>
+              </table>
+              </td>
+            </tr>
+            <tr><th>Shift 2</th></tr>
+            <tr><th>Shift 3</th></tr>
+            <tr><th>Shift 4</th></tr>
+          </tbody>
+        </table>
+      </section>
+    </article>
+    <aside></aside>
+  </main>
+  <footer>Footer</footer>
+</body>
+</html>

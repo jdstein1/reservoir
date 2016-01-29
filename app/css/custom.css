@@ -1,0 +1,24 @@
+.task-list {}
+.task-item {}
+
+.status-* {}
+.status-notstart {}
+.status-inprog {}
+.status-done {}
+
+table {width: 100%;}
+tr {}
+th, td {text-align: center;}
+th {background: #eee;}
+td {}
+
+.team.pink {background: #f9c;}
+.team.blue {background: #9cf;}
+.team.blonde {background: #fc9;}
+.team.brown {background: #c96;}
+
+.shift {}
+.shift.shift-1 {border:1px solid cyan;}
+.shift.shift-2 {border:1px solid magenta;}
+.shift.shift-3 {border:1px solid yellow;}
+.shift.shift-4 {border:1px solid black;}

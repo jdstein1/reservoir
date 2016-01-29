@@ -1,0 +1,51 @@
+{
+	"cast":{[
+		"brown": {[
+			"actor":"Quentin Tarantino",
+			"members":{[
+				]}
+			]},
+		"blue": {[
+			"actor":"Michael Madsen",
+			"members":{[
+				]}
+			]},
+		"pink": {[
+			"actor":"Steve Buscemi",
+			"members":{[
+				]}
+			]},
+		"blonde": {[
+			"actor":"Eddie Bunker",
+			"members":{[
+				]}
+			]}
+	]},
+	"schedule":{[
+		"days":{[
+			{"label":"Day 1","date":"2015-11-21"},
+			{"label":"Day 2","date":"2015-11-22"},
+			{"label":"Day 3","date":"2015-11-23"},
+			{"label":"Day 4","date":"2015-11-24"},
+			{"label":"Day 5","date":"2015-11-25"},
+			{"label":"Day 6","date":"2015-11-26"},
+			{"label":"Day 7","date":"2015-11-27"},
+			{"label":"Day 7","date":"2015-11-28"},
+			{"label":"Day 7","date":"2015-11-29"},
+			{"label":"Day 7","date":"2015-11-30"}
+		]},
+		"shifts":{
+			"oncall":{[
+				{"start":"07:00","end":"14:30"},
+				{"start":"14:30","end":"22:00"}
+			]},
+			"onduty":{[
+				{"start":"22:00","end":"03:00"},
+				{"start":"03:00","end":"07:00"}
+			]},
+			"regular":{[
+				{"start":"09:30","end":"17:30"}
+			]}
+		}
+	]}
+}
